@@ -2,5 +2,5 @@ const app = "I don't do much."
 var kittens = ["milo", "Otis", "Garfield"]
 
 destructivelyAppendKitten(array, element){
-  return kittens.push("Kitty")
+  return array.push(element)
 }
