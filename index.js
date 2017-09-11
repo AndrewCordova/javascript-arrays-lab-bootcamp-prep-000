@@ -1,7 +1,7 @@
 const app = "I don't do much."
 var kittens = ["milo", "Otis", "Garfield"];
 
-destructivelyAppendKitten("Ralph") {
-  kittens.unshift("Ralph")
+destructivelyAppendKitten(name) {
+  kittens.unshift(name)
   return kittens
 }
